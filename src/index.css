@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* Global behavior */
+html { scroll-behavior: smooth; }
+
+/* Offset for sticky header when using #hash links */
+section[id] { scroll-margin-top: 80px; }
